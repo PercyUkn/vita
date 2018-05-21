@@ -2,19 +2,77 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Vita</title>
+    <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <meta charset="utf-8">
+    <!--Just some funky letters-->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <style>
         body {
             font-size: 1.8em;
+            margin: 1rem;
+        }
+
+        #title {
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem;
+        }
+
+        .container-fluid.menu {
+            background: black;
+            color: white;
+        }
+
+        .menu-2 {
+            font-family: 'Muli', sans-serif;
+            font-size: 25px;
+        }
+
+        html {
+            background: dimgray;
+        }
+
+        .container-fluid.menu-3 {
+            text-align: center;
         }
     </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-<header>Vita</header>
-<article>Da el mejor 'hola' de tu vida</article>
+<div class="container-fluid menu">
+    <header id="title">Vita</header>
+</div>
+<div class="container-fluid menu-2">
+    <div class="row">
+        <div class="col-md-auto">
+            Login
+        </div>
+        <div class="col-md-auto">
+            Inicio
+        </div>
+        <div class="col-md-auto">
+            Acerca
+        </div>
+        <div class="col-md-auto">
+            Testimonios
+        </div>
+        <div class="col-md-auto">
+            Descargar Plantillas
+        </div>
+    </div>
+</div>
+<div class="container-fluid menu-3">
+    <div class="row">
+        <div class="col-12">
+            Da el mejor 'hola' de tu vida
+        </div>
+        <div class="w-100"></div>
+        <div class="col-12">
+            Inicia aquí
+        </div>
+    </div>
+</div>
 </body>
 </html>
