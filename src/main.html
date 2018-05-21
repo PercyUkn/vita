@@ -37,7 +37,24 @@
 
         .container-fluid.menu-3 {
             text-align: center;
+            position: relative;
+            color: white;
         }
+
+        .container-fluid.menu-3 .col-12.center {
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .container-fluid.menu-3 .col-12.center2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
     </style>
 </head>
 <body>
@@ -64,12 +81,13 @@
     </div>
 </div>
 <div class="container-fluid menu-3">
+    <img width="1600" id="main-image" src="images/productivity.jpg" alt="">
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 center2">
             Da el mejor 'hola' de tu vida
         </div>
         <div class="w-100"></div>
-        <div class="col-12">
+        <div class="col-12 center">
             Inicia aquí
         </div>
     </div>
